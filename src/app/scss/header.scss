@@ -1,0 +1,40 @@
+header{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    h1{
+        padding: 2rem;
+    }
+
+    .hero-search-container{
+        height: 10%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        background-color: red;
+
+        .hero-category, .hero-name, .hero-search{
+            width: 33%;
+            height: 100%;          
+        }
+
+        .hero-name{
+            background-color: blue;
+        }
+
+        .hero-category{
+            background-color: yellow;
+        }
+
+        .hero-search{
+            background-color: magenta;
+        }
+    }
+}

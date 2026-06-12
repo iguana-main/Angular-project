@@ -1,0 +1,25 @@
+nav{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    z-index: 3;
+    position: fixed;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;  
+        list-style-type: none;
+        padding: 2px;
+        
+        li{
+            margin: 15px;
+            padding: 3px;
+            font-size: 20px;
+        } 
+    }
+}
