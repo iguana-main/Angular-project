@@ -11,3 +11,9 @@ main{
     width: 100%;
     background-color: red;
 }
+
+section{
+    &:nth-of-type(even){
+        background-color: #ffffff;
+    }
+}

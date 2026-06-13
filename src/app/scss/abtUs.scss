@@ -1,23 +1,34 @@
-.abtUs{
-    height: 100vh;
+.abtUs {
+    height: 90vh;
     width: 100%;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f1f0f6;
 
-    .hero-image, .hero-container{
+    .hero-image,
+    .hero-container {
+        // background-color: yellowgreen;
+        height: 75%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: yellowgreen;
-        height: 75%;
-        width: 50%;
         padding: 2rem;
     }
 
-    .hero-container{
+    .hero-container {
         font-size: 1.8rem;
         
+    }
+
+    //na chama klasa
+
+    .img {
+        height: 150%;
+        width: 80%;
+        background-color: aliceblue;
+        position: relative;
+        top: 10rem;
     }
 }

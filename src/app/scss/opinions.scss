@@ -1,0 +1,15 @@
+.opinions{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 120vh;
+    width: 100%; 
+    .hero-opinion{
+        height: 80%;
+        width: 35%;
+        background-color: #01a79d;
+        position: relative;
+        top: 7rem;
+    }
+
+}

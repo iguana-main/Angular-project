@@ -4,10 +4,11 @@ import { Home } from './home/home';
 import { Offers } from './offers/offers';
 import { AbtUs } from './abt-us/abt-us';
 import { Contact } from "./contact/contact";
+import { Opinions } from "./opinions/opinions";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Home, Offers ,AbtUs, Contact],
+  imports: [RouterOutlet, Home, Offers, AbtUs, Contact, Opinions],
   templateUrl: './app.html',
   styleUrl: './app.scss',
   standalone: true,

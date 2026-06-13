@@ -1,6 +1,6 @@
 header{
     height: 100vh;
-    background-color: green;
+    background-color: #f1f0f6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ header{
         position: absolute;
 
         .hero-image{
-            height: 100%;
+            height: 90%;
             width: 50%;
             background-color: blueviolet;
         }
@@ -47,27 +47,15 @@ header{
         justify-content: center;
         align-items: center;
         position: relative;
-        background-color: red;
+        background-color: #ffffff;
 
         .hero-category, .hero-name, .hero-search, .hero-location{
             width: 25%;
             height: 100%;          
         }
 
-        .hero-location{
-            background-color: aliceblue;
-        }
-
-        .hero-name{
-            background-color: blue;
-        }
-
-        .hero-category{
-            background-color: yellow;
-        }
-
         .hero-search{
-            background-color: magenta;
+            background-color: #01a79d;
             text-align: center;
             display: flex;
             justify-content: center;
