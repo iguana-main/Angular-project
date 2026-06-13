@@ -8,6 +8,14 @@ nav{
     z-index: 3;
     position: fixed;
 
+    .hero-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        height: 100%;
+    }
+
     ul{
         display: flex;
         justify-content: center;
@@ -15,6 +23,7 @@ nav{
         background-color: blue;  
         list-style-type: none;
         padding: 2px;
+        flex-basis: 50%;
         
         li{
             margin: 15px;

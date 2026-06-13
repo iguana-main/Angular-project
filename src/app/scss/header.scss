@@ -4,25 +4,36 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
     
     h1{
         padding: 2rem;
+        font-size: 48px;
+    }
+
+    .hero-container{
+        height: 50%;
+        width: 90%;
+        position: relative;
+        top: 3rem;
     }
 
     .hero-search-container{
-        height: 10%;
-        width: 90%;
+        height: 15%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-
-
+        position: relative;
         background-color: red;
 
-        .hero-category, .hero-name, .hero-search{
-            width: 33%;
+        .hero-category, .hero-name, .hero-search, .hero-location{
+            width: 25%;
             height: 100%;          
+        }
+
+        .hero-location{
+            background-color: aliceblue;
         }
 
         .hero-name{
