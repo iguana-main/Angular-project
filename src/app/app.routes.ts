@@ -8,17 +8,14 @@ import { AbtUs } from './abt-us/abt-us';
 export const routes: Routes = [
   {
     path: '',
-    title: 'App Home',
     component: Home, 
   },
   { 
     path: '', 
-    title: 'App About',
     component: AbtUs,
   },
   { 
     path: '',
-    title: 'App Contact', 
     component: Contact,
   },
 ];

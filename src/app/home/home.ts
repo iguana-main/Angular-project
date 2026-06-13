@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   imports: [],
   templateUrl: 'home.html',
-  // template: '<p>tekst</p>',
   styleUrl: '../app.scss',
   standalone: true,
 })

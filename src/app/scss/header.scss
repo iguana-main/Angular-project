@@ -11,11 +11,33 @@ header{
         font-size: 48px;
     }
 
-    .hero-container{
+    p{
+        padding: 2rem;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        // font-weight: bold;
+    }
+
+    .hero-placeholder{
+        // background-color: red;
+        height: 100%;
+        width: 100%;
+        // z-index: -1;
+        position: absolute;
+
+        .hero-image{
+            height: 100%;
+            width: 50%;
+            background-color: blueviolet;
+        }
+    }
+
+    .hero-header{
         height: 50%;
         width: 90%;
         position: relative;
-        top: 3rem;
+        top: 6rem;
+        // top: auto;
     }
 
     .hero-search-container{
@@ -46,6 +68,15 @@ header{
 
         .hero-search{
             background-color: magenta;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rebeccapurple;
+            }
         }
     }
 }
