@@ -26,10 +26,10 @@ header{
         position: absolute;
 
         .hero-image{
-            height: 90%;
+            height: 110%;
             width: 50%;
-            // background-color: blueviolet;
-            background-color: #01a79d;
+            background-color: #f1f0f6;
+            
             img{
                 height: 100%;
                 width: 100%;
@@ -42,6 +42,7 @@ header{
             align-items: flex-end;
             height: 90%;
             width: 50%;
+            background-color: #01a79d;
 
             .btn-left, .btn-right{
                 display: flex;
