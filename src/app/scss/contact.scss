@@ -1,8 +1,73 @@
 .contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 90vh;
     width: 100%;
     background-color: #f1f0f6;
+
+    .hero-contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 30%;
+        background-color: #01a79d;
+        h2{
+            font-size: 2.4rem;
+        }
+    }
+
+    .hero-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80%;
+        width: 60%;
+        
+        // background-color: red;
+
+        label{
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .email, .subject, .email-content{
+            width: 60%;
+            margin: 0.5rem;
+            border: 1px solid rgb(80, 79, 79);
+            border-radius: 5px;
+        }
+
+        .email, .subject{
+            height: 7%;
+        }
+
+        .email-content{
+            height: 30%;
+            resize: none;
+        }
+
+        .hero-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 8%;
+            width: 20%;
+            background-color: #01a79d;
+            border-radius: 5px;
+            border: none;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #00887f;
+                transition: 0.2s ease-in-out;
+            }
+        }
+    }
 }

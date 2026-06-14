@@ -1,8 +1,9 @@
 .opinions {
     display: flex;
-    justify-content: right;
-    align-items: right;
-    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 90vh;
     width: 100%;
 
     .hero-opinion {
@@ -11,16 +12,62 @@
         align-items: center;
         flex-direction: column;
         height: 80%;
-        width: 35%;
+        width: 20%;
         background-color: #01a79d;
         position: relative;
-        top: 7rem;
+        // top: 7rem;
 
-        h3 {
+        h2 {
             font-weight: 600;
             font-size: 2rem;
             text-align: center;
         }
     }
 
+    .hero-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+
+        .hero-profile-picture{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50%;
+            width: 30%;
+            background-color: #01a79d;
+
+            .hero-picture{
+                height: 10rem;
+                width: 10rem;
+                background-color: #f1f0f6;
+                border-radius: 50%;
+            }
+
+            p{
+                font-size: 1.2rem;
+                padding: 2rem;
+            }
+        }
+        .hero-user-review{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            width: 50%;
+            background-color: #f1f0f6;
+            position: relative;
+            top: 7rem;
+
+            p{
+                font-size: 1.4rem;
+                padding: 2rem;
+                font-style: italic;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
 }
