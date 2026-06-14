@@ -20,12 +20,17 @@
     }
 
     .hero-container {
-        font-size: 1.8rem;       
+        // font-size: 1.8rem;       
         flex-direction: column;
 
         h3{
-            font-size: 3rem;
+            font-size: 4.4rem;
             margin-bottom: 2.5rem;
+        }
+
+        p{
+            font-size: 1.4rem;
+            // padding: 2rem;
         }
     }
 
