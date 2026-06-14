@@ -34,7 +34,7 @@
 
     .hero-offer {
         height: 55%;
-        width: 21%;
+        width: 20%;
         margin: 1rem;
         background-color: #01a79d;
         cursor: pointer;
@@ -43,6 +43,11 @@
             height: 50%;
             width: 100%;
             background-color: aliceblue;
+
+            img{
+                height: 100%;
+                width: 100%;
+            }
         }
 
     }
