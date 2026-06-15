@@ -1,14 +1,15 @@
 header{
-    height: 100vh;
-    background-color: #f1f0f6;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: #f1f0f6;
 
     
     h1{
         padding: 2rem;
         font-size: 4.4rem;
+        letter-spacing: 0.5px;
     }
 
     p{
@@ -28,11 +29,12 @@ header{
         .hero-image{
             height: 110%;
             width: 40%;
-            background-color: #f1f0f6;
+            // background-color: #f1f0f6;
             
             img{
                 height: 100%;
                 width: 100%;
+                border-radius: 0px 0px 0px 5px;
             }
         }
 
@@ -42,7 +44,7 @@ header{
             align-items: flex-end;
             height: 90%;
             width: 60%;
-            background-color: #01a79d;
+            background-color: #00887f;
 
             .btn-left, .btn-right{
                 display: flex;
@@ -61,7 +63,7 @@ header{
         height: 50%;
         width: 85%;
         position: relative;
-        top: 6rem;
+        top: 8rem;
     }
 
     .hero-search-container{
@@ -72,6 +74,7 @@ header{
         align-items: center;
         position: relative;
         background-color: #ffffff;
+        border-radius: 7px;
 
         .hero-category, .hero-name, .hero-search, .hero-location{
             width: 25%;
@@ -87,6 +90,7 @@ header{
             color: #ffffff;
             text-align: center;
             cursor: pointer;
+            border-radius: 0px 5px 5px 0px;
 
             &:hover{
                 background-color: #00887f;

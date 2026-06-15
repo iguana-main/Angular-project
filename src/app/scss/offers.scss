@@ -6,13 +6,14 @@
     width: 100%;
     background-color: #ffffff;
 
-    .hero-box-container{
+    .hero-box-container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 80%;
         width: 20%;
-        background-color: #01a79d;
+        background-color: #00887f;
+        border-radius: 0px 5px 5px 0px;
         // background-color: red;
 
         h2 {
@@ -36,15 +37,20 @@
         height: 55%;
         width: 20%;
         margin: 1rem;
+        // padding: 0.5rem;
         background-color: #01a79d;
+        border-radius: 5px;
+        box-shadow: 15px 20px;
         cursor: pointer;
 
         .hero-image {
-            height: 50%;
+            height: 52.5%;
             width: 100%;
-            background-color: aliceblue;
+            background-color: #f1f0f6;
+            border-radius: 5px 5px 0px 0px;
 
-            img{
+            img {
+                border-radius: 5px 5px 0px 0px;
                 height: 100%;
                 width: 100%;
             }
@@ -65,16 +71,17 @@
             width: 100%;
             font-size: 1rem;
 
-            h3, p {
-                padding: 1rem;
+            h3,
+            p {
+                padding: 1.05rem;
             }
-            
-            h3{
+
+            h3 {
                 font-size: 1.3rem;
             }
 
-            .price{
-                font-size: 1.3rem;
+            .price {
+                font-size: 1.5rem;
             }
         }
     }
