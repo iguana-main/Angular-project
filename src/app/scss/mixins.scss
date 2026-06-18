@@ -1,0 +1,20 @@
+$size-m: 726px;
+$size-l: 1124px;
+$size-xl: 1324px;
+
+@mixin mq($size: 'm') {
+
+    @if $size == 'm' {
+        $size: $size-m;
+    } @else if $size == 'l' {
+        $size: $size-l;
+    } @else if $size == 'xl' {
+        $size: $size-xl;
+    } @else {
+        $size: $size;
+    }
+
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}

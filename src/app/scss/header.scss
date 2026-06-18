@@ -1,10 +1,11 @@
+@use 'mixins.scss' as *;
+
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f1f0f6;
-
     
     h1{
         padding: 2rem;
@@ -44,7 +45,9 @@ header{
             align-items: flex-end;
             height: 90%;
             width: 60%;
-            background-color: #00887f;
+            // background-color: #01756e;
+            background: linear-gradient(135deg, #00887f, #01756e);
+            // background: radial-gradient(red, yellow, circle at top);
 
             .btn-left, .btn-right{
                 display: flex;
