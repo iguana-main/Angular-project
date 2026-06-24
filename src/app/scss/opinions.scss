@@ -15,7 +15,7 @@
         width: 20%;
         background-color: #01a79d;
         position: relative;
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 10px 0px 0px 10px;
         // top: 7rem;
 
         h2 {
@@ -37,20 +37,20 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            height: 50%;
+            height: 60%;
             width: 30%;
             background-color: #01a79d;
-            border-radius: 5px;
+            border-radius: 10px;
 
             .hero-picture{
-                height: 10rem;
-                width: 10rem;
+                height: 11rem;
+                width: 11rem;
                 background-color: #f1f0f6;
                 border-radius: 50%;
             }
 
             p{
-                font-size: 1.2rem;
+                font-size: 1.4rem;
                 padding: 2rem;
             }
         }
@@ -58,11 +58,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50%;
+            height: 55%;
             width: 50%;
             background-color: #f1f0f6;
             position: relative;
-            border-radius: 0px 5px 5px 5px;
+            border-radius: 0px 10px 10px 10px;
             top: 7rem;
             // box-shadow: 55px 25px rgb(27, 24, 44);
 
